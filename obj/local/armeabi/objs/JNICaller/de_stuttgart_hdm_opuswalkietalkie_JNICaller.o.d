@@ -1,0 +1,32 @@
+obj/local/armeabi/objs/JNICaller/de_stuttgart_hdm_opuswalkietalkie_JNICaller.o: \
+ jni/de_stuttgart_hdm_opuswalkietalkie_JNICaller.c \
+ jni/de_stuttgart_hdm_opuswalkietalkie_JNICaller.h \
+ /Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/jni.h \
+ /Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/string.h \
+ /Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/cdefs.h \
+ /Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h \
+ /Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/malloc.h \
+ /Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/android/log.h \
+ jni/../static_libs/opus/include/opus/opus.h \
+ jni/../static_libs/opus/include/opus/opus_types.h \
+ jni/../static_libs/opus/include/opus/opus_defines.h
+
+jni/de_stuttgart_hdm_opuswalkietalkie_JNICaller.h:
+
+/Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/jni.h:
+
+/Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/string.h:
+
+/Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/cdefs.h:
+
+/Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/malloc.h:
+
+/Users/manuelbeuttler/android-ndk-r8b/platforms/android-14/arch-arm/usr/include/android/log.h:
+
+jni/../static_libs/opus/include/opus/opus.h:
+
+jni/../static_libs/opus/include/opus/opus_types.h:
+
+jni/../static_libs/opus/include/opus/opus_defines.h:

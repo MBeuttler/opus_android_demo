@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_record_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:text="Press 'Record' to start recording."
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/b_record_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="107dp"
+        android:layout_marginLeft="56dp"
+        android:onClick="onRecord"
+        android:text="Record" />
+
+    <Button
+        android:id="@+id/b_play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b_record_button"
+        android:layout_alignBottom="@+id/b_record_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="56dp"
+        android:onClick="onPlay"
+        android:text="Play" />
+
+</RelativeLayout>

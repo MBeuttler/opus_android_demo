@@ -1,0 +1,15 @@
+# opus codec reference implementation pkg-config file
+
+prefix=/Users/manuelbeuttler/workspace/Opus_Walkie_Talkie/static_libs
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Opus
+Description: Opus IETF low-latency audio codec
+URL: http://opus-codec.org/
+Version: 1.0.1
+Requires:
+Conflicts:
+Libs: -L${libdir} -lopus
+Cflags: -I${includedir}/opus
