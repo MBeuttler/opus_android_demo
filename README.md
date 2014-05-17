@@ -38,7 +38,8 @@ Setup instructions as I used them for my workspace and device. You may need to c
 
 This should give you the precombiled opus sources under /tmp/libOpus.
 Those files are included with the project Android.mk found under '/static_libs/opus' to load the prebuild library:
------------------------------------------------------------------------------------
+
+```
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -48,10 +49,11 @@ LOCAL_SRC_FILES := lib/libopus.a
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/include
 
 include $(PREBUILT_STATIC_LIBRARY) 
-------------------------------------------------------------------------------------
+```
 
 And '/jni' to define the local modules and reference the prebuild libary:
-------------------------------------------------------------------------------------
+
+```
 LOCAL_PATH := $(call my-dir)
 $(call import-add-path,$(LOCAL_PATH)/../static_libs)
 
@@ -77,7 +79,7 @@ LOCAL_STATIC_LIBRARIES := opus
 include $(BUILD_SHARED_LIBRARY)
 
 $(call import-module,opus) 
-------------------------------------------------------------------------------
+```
 
 I no longer have the time to work on this project, but maybe the code so far helps someone else or even inspires someone to finish the work.
 
