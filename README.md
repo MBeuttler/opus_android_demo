@@ -5,7 +5,7 @@ This demo application was part of one of my student projects.
 The idea was to use the opus audio codec to build a walkie-talkie demo app on android.
 I had problems getting the opus encoding work and as there was less and less time to work on the project I finaly gave up.
 
-A short time ago someone contected me referencing my code. He asked me to put it on git hub as it did help him in some way and it could may be useful for others too.
+A short time ago someone got in touch with me referencing my code. He asked me to put it on GitHub as it did help him in some way and it could may be useful for others too.
 
 The project so far does only work in some parts. Unfortunately opus encoding and decoding does not.
 
